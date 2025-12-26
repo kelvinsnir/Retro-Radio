@@ -37,6 +37,62 @@ class MusicController extends Controller
         return view('music.index', compact('tracks'));
     }
 
+//     public function index()
+// {
+//     // Dummy data for testing - real MP3 files
+//     $tracks = [
+//         [
+//             'id' => 1,
+//             'title' => 'Sunset Boulevard',
+//             'artist' => 'Neon Dreams',
+//             'duration' => '3:45',
+//             'audio_url' => 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+//             'image_url' => null,
+//             'genre' => 'Synthwave'
+//         ],
+//         [
+//             'id' => 2,
+//             'title' => 'Ocean Breeze',
+//             'artist' => 'Wave Riders',
+//             'duration' => '4:12',
+//             'audio_url' => 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+//             'image_url' => null,
+//             'genre' => 'Chillwave'
+//         ],
+//         [
+//             'id' => 3,
+//             'title' => 'Palm Paradise',
+//             'artist' => 'Tropical Nights',
+//             'duration' => '3:28',
+//             'audio_url' => 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+//             'image_url' => null,
+//             'genre' => 'Vaporwave'
+//         ],
+//         [
+//             'id' => 4,
+//             'title' => 'Retrograde',
+//             'artist' => 'Time Machine',
+//             'duration' => '5:03',
+//             'audio_url' => 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+//             'image_url' => null,
+//             'genre' => 'Synthpop'
+//         ],
+//         [
+//             'id' => 5,
+//             'title' => 'Summer 85',
+//             'artist' => 'Nostalgia Drive',
+//             'duration' => '3:56',
+//             'audio_url' => 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+//             'image_url' => null,
+//             'genre' => 'Retro Pop'
+//         ],
+//     ];
+
+//     return view('music.index', compact('tracks'));
+// }
+
+
+
     public function search(Request $request)
     {
         $query = $request->input('q');
