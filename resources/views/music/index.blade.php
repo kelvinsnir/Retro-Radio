@@ -9,19 +9,19 @@
 </header>
 
 <!-- Search Bar -->
-<div class="search-bar">
+{{-- <div class="search-bar">
     <input type="text" class="search-input" id="searchInput" placeholder="Search for tracks, artists...">
-</div>
+</div> --}}
 
 <!-- Genre Filters -->
 <div class="genre-filters">
     <button class="genre-btn active" data-genre="all">All</button>
-    <button class="genre-btn" data-genre="electronic">Electronic</button>
-    <button class="genre-btn" data-genre="pop">Pop</button>
-    <button class="genre-btn" data-genre="rock">Rock</button>
-    <button class="genre-btn" data-genre="jazz">Jazz</button>
-    <button class="genre-btn" data-genre="classical">Classical</button>
-    <button class="genre-btn" data-genre="hiphop">Hip Hop</button>
+    <button class="genre-btn" data-genre="electronic">Electronic FM</button>
+    <button class="genre-btn" data-genre="pop">Pop FM</button>
+    <button class="genre-btn" data-genre="rock">Rock FM</button>
+    <button class="genre-btn" data-genre="jazz">Jazz FM</button>
+    <button class="genre-btn" data-genre="classical">Classical FM</button>
+    <button class="genre-btn" data-genre="hiphop">Hip Hop FM</button>
 </div>
 
 <!-- Player Card -->
